@@ -1,6 +1,8 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import AllPosts from "./components/Posts/AllPosts";
+import PostDetail from "./components/Posts/PostDetail";
 function App() {
   return (
     <Router>
@@ -8,7 +10,9 @@ function App() {
         <Navbar />
         <div id="content">
           <Switch>
-            {/* <Route path="/" exact component={Products} />
+            <Route path="/" exact component={AllPosts} />
+            <Route path={"/:post_id"} component={PostDetail} />
+            {/*  
             <Route path="/product/:product_id" component={ProductDetail} />
             <Route path="/signin" component={SigIn} />
             <Route path="/signup" component={SignUp} />

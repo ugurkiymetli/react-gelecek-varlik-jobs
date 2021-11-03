@@ -5,13 +5,16 @@ import "./reset.css";
 import "antd/dist/antd.css";
 import App from "./App";
 import { ChakraProvider } from "@chakra-ui/react";
+import { PostProvider } from "./context/PostsContext";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ChakraProvider>
-      <App />
-    </ChakraProvider>
+    <PostProvider>
+      <ChakraProvider>
+        <App />
+      </ChakraProvider>
+    </PostProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

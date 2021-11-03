@@ -15,8 +15,7 @@ function Navbar() {
         </div>
         <ul className={styles.menu}>
           <li>
-            {" "}
-            <Link to="/">Açık İlanlar</Link>
+            <Link to="/">Açık Pozisyonlar</Link>
           </li>
 
           <li>
