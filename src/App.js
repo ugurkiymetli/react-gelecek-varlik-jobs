@@ -10,8 +10,11 @@ function App() {
         <Navbar />
         <div id="content">
           <Switch>
-            <Route path="/" exact component={AllPosts} />
-            <Route path={"/:post_id"} component={PostDetail} />
+            <Route path="/gelecek-varlik-hr/" exact component={AllPosts} />
+            <Route
+              path={"/gelecek-varlik-hr/:post_id"}
+              component={PostDetail}
+            />
             {/*  
             <Route path="/product/:product_id" component={ProductDetail} />
             <Route path="/signin" component={SigIn} />
