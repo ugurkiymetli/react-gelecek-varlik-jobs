@@ -27,15 +27,33 @@ function AllPosts() {
       key: "city",
     },
     {
-      title: "İncele",
+      title: "İlanı yayınlayan",
+      dataIndex: "poster",
+      key: "poster",
+    },
+    // {
+    //   title: "İncele",
+    //   dataIndex: "action",
+    //   render: (record) => ({
+    //     /* <Box>
+    //       <Link to={`/${record.id}`}>
+    //         <Button>İncele</Button>
+    //       </Link>
+    //     </Box> */
+    //   }),
+    // },
+    {
+      title: "Action",
       dataIndex: "action",
-      render: (record) => ({
-        /* <Box>
+      render: (text, record) => (
+        <Box>
           <Link to={`/${record.id}`}>
-            <Button>İncele</Button>
+            <Button colorScheme="gray" variant="outline">
+              İncele
+            </Button>
           </Link>
-        </Box> */
-      }),
+        </Box>
+      ),
     },
   ];
   return (

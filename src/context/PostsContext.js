@@ -1,7 +1,7 @@
 import { createContext, useContext, useState } from "react";
-
+import posts from "../local json/posts.json";
 const PostsContext = createContext();
-const initalValues = [
+/* const initalValues = [
   {
     id: 1,
     date: "03.11.2021",
@@ -68,7 +68,8 @@ const initalValues = [
     title: "Fullstack Software Developer",
     city: "İstanbul(Avr.)",
   },
-];
+]; */
+const initalValues = posts;
 const PostProvider = ({ children }) => {
   const [posts, setPosts] = useState(initalValues);
   console.log(posts);
