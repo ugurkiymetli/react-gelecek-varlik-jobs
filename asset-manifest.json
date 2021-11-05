@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gelecek-varlik-hr/static/css/main.0de69944.chunk.css",
-    "main.js": "/gelecek-varlik-hr/static/js/main.11748930.chunk.js",
-    "main.js.map": "/gelecek-varlik-hr/static/js/main.11748930.chunk.js.map",
+    "main.js": "/gelecek-varlik-hr/static/js/main.ed1ca508.chunk.js",
+    "main.js.map": "/gelecek-varlik-hr/static/js/main.ed1ca508.chunk.js.map",
     "runtime-main.js": "/gelecek-varlik-hr/static/js/runtime-main.2fa10790.js",
     "runtime-main.js.map": "/gelecek-varlik-hr/static/js/runtime-main.2fa10790.js.map",
     "static/css/2.a95be28f.chunk.css": "/gelecek-varlik-hr/static/css/2.a95be28f.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.a95be28f.chunk.css",
     "static/js/2.50ede88c.chunk.js",
     "static/css/main.0de69944.chunk.css",
-    "static/js/main.11748930.chunk.js"
+    "static/js/main.ed1ca508.chunk.js"
   ]
 }
