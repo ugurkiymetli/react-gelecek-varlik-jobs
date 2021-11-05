@@ -15,12 +15,6 @@ function App() {
               path={"/gelecek-varlik-hr/:post_id"}
               component={PostDetail}
             />
-            {/*  
-            <Route path="/product/:product_id" component={ProductDetail} />
-            <Route path="/signin" component={SigIn} />
-            <Route path="/signup" component={SignUp} />
-            <Route path="/basket" component={Basket} />
-             <Route path="*" component={Error404} /> */}
           </Switch>
         </div>
       </div>

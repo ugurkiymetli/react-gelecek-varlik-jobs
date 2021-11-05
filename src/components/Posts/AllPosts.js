@@ -31,23 +31,12 @@ function AllPosts() {
       dataIndex: "poster",
       key: "poster",
     },
-    // {
-    //   title: "İncele",
-    //   dataIndex: "action",
-    //   render: (record) => ({
-    //     /* <Box>
-    //       <Link to={`/${record.id}`}>
-    //         <Button>İncele</Button>
-    //       </Link>
-    //     </Box> */
-    //   }),
-    // },
     {
       title: "Action",
       dataIndex: "action",
       render: (text, record) => (
         <Box>
-          <Link to={`/${record.id}`}>
+          <Link to={`/gelecek-varlik-hr/${record.id}`}>
             <Button colorScheme="gray" variant="outline">
               İncele
             </Button>
