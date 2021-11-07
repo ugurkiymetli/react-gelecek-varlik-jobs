@@ -3,6 +3,7 @@ import { Table } from "antd";
 import { Heading, Box, Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { usePost } from "../../context/PostsContext";
+import { style } from "./styles.modules.css";
 function AllPosts() {
   const { posts } = usePost();
   const columns = [
@@ -55,6 +56,9 @@ function AllPosts() {
       </Heading>
       <Box mx="2" mt="2">
         <Table
+          rowClassName={(record, index) =>
+            index % 2 === 0 ? "table-row-light" : "table-row-dark"
+          }
           bordered
           dataSource={posts}
           columns={columns}
