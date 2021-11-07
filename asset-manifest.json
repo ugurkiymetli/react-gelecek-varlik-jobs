@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/gelecek-varlik-hr/static/css/main.c4eb3e9d.chunk.css",
-    "main.js": "/gelecek-varlik-hr/static/js/main.e9488607.chunk.js",
-    "main.js.map": "/gelecek-varlik-hr/static/js/main.e9488607.chunk.js.map",
-    "runtime-main.js": "/gelecek-varlik-hr/static/js/runtime-main.023c1046.js",
-    "runtime-main.js.map": "/gelecek-varlik-hr/static/js/runtime-main.023c1046.js.map",
+    "main.css": "/gelecek-varlik-hr/static/css/main.b3c06a53.chunk.css",
+    "main.js": "/gelecek-varlik-hr/static/js/main.5f6a294d.chunk.js",
+    "main.js.map": "/gelecek-varlik-hr/static/js/main.5f6a294d.chunk.js.map",
+    "runtime-main.js": "/gelecek-varlik-hr/static/js/runtime-main.0509655c.js",
+    "runtime-main.js.map": "/gelecek-varlik-hr/static/js/runtime-main.0509655c.js.map",
     "static/css/2.60a5af1d.chunk.css": "/gelecek-varlik-hr/static/css/2.60a5af1d.chunk.css",
-    "static/js/2.682d9bd5.chunk.js": "/gelecek-varlik-hr/static/js/2.682d9bd5.chunk.js",
-    "static/js/2.682d9bd5.chunk.js.map": "/gelecek-varlik-hr/static/js/2.682d9bd5.chunk.js.map",
-    "static/js/3.378232a5.chunk.js": "/gelecek-varlik-hr/static/js/3.378232a5.chunk.js",
-    "static/js/3.378232a5.chunk.js.map": "/gelecek-varlik-hr/static/js/3.378232a5.chunk.js.map",
+    "static/js/2.1752b401.chunk.js": "/gelecek-varlik-hr/static/js/2.1752b401.chunk.js",
+    "static/js/2.1752b401.chunk.js.map": "/gelecek-varlik-hr/static/js/2.1752b401.chunk.js.map",
+    "static/js/3.11db58c1.chunk.js": "/gelecek-varlik-hr/static/js/3.11db58c1.chunk.js",
+    "static/js/3.11db58c1.chunk.js.map": "/gelecek-varlik-hr/static/js/3.11db58c1.chunk.js.map",
     "index.html": "/gelecek-varlik-hr/index.html",
     "static/css/2.60a5af1d.chunk.css.map": "/gelecek-varlik-hr/static/css/2.60a5af1d.chunk.css.map",
-    "static/css/main.c4eb3e9d.chunk.css.map": "/gelecek-varlik-hr/static/css/main.c4eb3e9d.chunk.css.map",
-    "static/js/2.682d9bd5.chunk.js.LICENSE.txt": "/gelecek-varlik-hr/static/js/2.682d9bd5.chunk.js.LICENSE.txt",
+    "static/css/main.b3c06a53.chunk.css.map": "/gelecek-varlik-hr/static/css/main.b3c06a53.chunk.css.map",
+    "static/js/2.1752b401.chunk.js.LICENSE.txt": "/gelecek-varlik-hr/static/js/2.1752b401.chunk.js.LICENSE.txt",
     "static/media/gelecek-full.177dfa7d.svg": "/gelecek-varlik-hr/static/media/gelecek-full.177dfa7d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.023c1046.js",
+    "static/js/runtime-main.0509655c.js",
     "static/css/2.60a5af1d.chunk.css",
-    "static/js/2.682d9bd5.chunk.js",
-    "static/css/main.c4eb3e9d.chunk.css",
-    "static/js/main.e9488607.chunk.js"
+    "static/js/2.1752b401.chunk.js",
+    "static/css/main.b3c06a53.chunk.css",
+    "static/js/main.5f6a294d.chunk.js"
   ]
 }
