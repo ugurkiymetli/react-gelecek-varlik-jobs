@@ -7,14 +7,16 @@ function AllPosts() {
   const { posts } = usePost();
   const columns = [
     {
-      title: "İlan Numarası",
+      title: "İlan No:",
       dataIndex: "id",
       key: "id",
+      responsive: ["sm"],
     },
     {
       title: "İlan Tarihi",
       dataIndex: "date",
       key: "date",
+      responsive: ["md"],
     },
     {
       title: "Pozisyon Adı",
@@ -30,9 +32,10 @@ function AllPosts() {
       title: "İlanı yayınlayan",
       dataIndex: "poster",
       key: "poster",
+      responsive: ["md"],
     },
     {
-      title: "Action",
+      title: "İncele",
       dataIndex: "action",
       render: (text, record) => (
         <Box>
@@ -46,10 +49,10 @@ function AllPosts() {
     },
   ];
   return (
-    <div>
-      <Heading>Açık Pozisyonlar</Heading>
+    <Box mt={1} overflow="scroll">
+      <Heading textAlign="center">Açık Pozisyonlar</Heading>
       <Table dataSource={posts} columns={columns} rowKey="id"></Table>
-    </div>
+    </Box>
   );
 }
 

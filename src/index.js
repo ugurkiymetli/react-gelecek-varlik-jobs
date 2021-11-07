@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import "./reset.css";
 import "antd/dist/antd.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
 import { ChakraProvider } from "@chakra-ui/react";
 import { PostProvider } from "./context/PostsContext";

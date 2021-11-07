@@ -1,4 +1,4 @@
-.nav {
+/* .nav {
   padding: 13px;
   display: flex;
   justify-content: space-between;
@@ -34,9 +34,9 @@ li {
 }
 .nav .right a:first-child {
   margin-right: 10px;
-}
+} */
 /* loginbutton */
-.nav .right button {
+.login-button {
   background-color: #f5a623;
   color: #fff;
 }

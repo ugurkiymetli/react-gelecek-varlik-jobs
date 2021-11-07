@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import NavbarComponent from "./components/NavbarComponent";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AllPosts from "./components/Posts/AllPosts";
 import PostDetail from "./components/Posts/PostDetail";
@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar />
+        <NavbarComponent />
         <div id="content">
           <Switch>
             <Route path="/gelecek-varlik-hr/" exact component={AllPosts} />
