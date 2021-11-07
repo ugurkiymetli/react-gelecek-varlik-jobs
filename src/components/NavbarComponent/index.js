@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import { Button, Image } from "@chakra-ui/react";
+import { Button, Image, useToast } from "@chakra-ui/react";
 import logo from "../../gelecek-full.svg";
 import { Navbar, Nav } from "react-bootstrap";
 
 function NavbarComponent() {
+  const toast = useToast();
   return (
     <>
       <Navbar sticky="top" bg="light" className="px-2" expand="md">
@@ -17,17 +18,63 @@ function NavbarComponent() {
         >
           <Nav className="m">
             <Nav.Link as={Link} to="/gelecek-varlik-hr/">
-              <Button boxShadow="lg" rounded="md" variant="Link">
+              <Button
+                color="#31405C"
+                boxShadow="lg"
+                rounded="md"
+                variant="Link"
+              >
                 Açık Pozisyonlar
               </Button>
             </Nav.Link>
             <Nav.Link as={Link} to="#">
-              <Button boxShadow="lg" rounded="md" variant="Link">
+              <Button
+                color="#31405C"
+                boxShadow="lg"
+                rounded="md"
+                variant="Link"
+                onClick={() => {
+                  const toastID = 1;
+                  if (!toast.isActive(toastID)) {
+                    toast({
+                      id: 1,
+                      title: "Geliştirilme aşamasında!",
+                      description: "Başvurularım sayfası hazırlanıyor.",
+                      status: "error",
+                      variant: "subtle",
+                      duration: 1700,
+                      position: "bottom",
+                      isClosable: true,
+                    });
+                  }
+                }}
+              >
                 Başvurularım
               </Button>
             </Nav.Link>
             <Nav.Link as={Link} to="#">
-              <Button boxShadow="lg" rounded="md" variant="Link">
+              <Button
+                color="#31405C"
+                boxShadow="lg"
+                rounded="md"
+                variant="Link"
+                onClick={() => {
+                  const toastID = 2;
+                  if (!toast.isActive(toastID)) {
+                    toast({
+                      id: 2,
+                      title: "Geliştirilme aşamasında!",
+                      description:
+                        "Özgeçmiş Bilgilerim sayfası hazırlanıyor...",
+                      status: "error",
+                      variant: "subtle",
+                      duration: 1700,
+                      position: "bottom",
+                      isClosable: true,
+                    });
+                  }
+                }}
+              >
                 Özgeçmiş Bilgilerim
               </Button>
             </Nav.Link>
@@ -39,6 +86,21 @@ function NavbarComponent() {
               boxShadow="lg"
               rounded="md"
               variant="solid"
+              onClick={() => {
+                const toastID = 3;
+                if (!toast.isActive(toastID)) {
+                  toast({
+                    id: 3,
+                    title: "Geliştirilme aşamasında!",
+                    description: "Üyelik özellikleri hazırlanıyor.",
+                    status: "error",
+                    variant: "subtle",
+                    duration: 1700,
+                    position: "bottom",
+                    isClosable: true,
+                  });
+                }
+              }}
             >
               Giriş Yap
             </Button>

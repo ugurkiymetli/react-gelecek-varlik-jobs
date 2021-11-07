@@ -15,7 +15,12 @@ function App() {
         <NavbarComponent />
         <div id="content">
           <Switch>
-            <Route path="/gelecek-varlik-hr/" exact component={AllPosts} />
+            <Route
+              basename="/gelecek-varlik-hr"
+              path="/gelecek-varlik-hr/"
+              exact
+              component={AllPosts}
+            />
             <Route
               path={"/gelecek-varlik-hr/:post_id"}
               component={PostDetail}

@@ -49,9 +49,18 @@ function AllPosts() {
     },
   ];
   return (
-    <Box mt={1} overflow="scroll">
-      <Heading textAlign="center">Açık Pozisyonlar</Heading>
-      <Table dataSource={posts} columns={columns} rowKey="id"></Table>
+    <Box mt={4} p="1" overflow="scroll">
+      <Heading color="#31405C" textAlign="center">
+        Açık Pozisyonlar
+      </Heading>
+      <Box mx="2" mt="2">
+        <Table
+          bordered
+          dataSource={posts}
+          columns={columns}
+          rowKey="id"
+        ></Table>
+      </Box>
     </Box>
   );
 }
