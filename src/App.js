@@ -1,6 +1,11 @@
 import "./App.css";
 import NavbarComponent from "./components/NavbarComponent";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import AllPosts from "./components/Posts/AllPosts";
 import PostDetail from "./components/Posts/PostDetail";
 function App() {
@@ -15,6 +20,7 @@ function App() {
               path={"/gelecek-varlik-hr/:post_id"}
               component={PostDetail}
             />
+            <Redirect from="*" to="/gelecek-varlik-hr/" />
           </Switch>
         </div>
       </div>
